@@ -1,0 +1,100 @@
+/* home.css */
+
+body, html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    background-color: #f0f0f0; /* light gray */
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  }
+  
+  .home-container {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    width: 100%;
+  }
+  
+  /* Full-width Navbar */
+  .home-container > :first-child {
+    width: 100%;
+    background-color: #333;
+    color: white;
+    padding: 16px;
+    box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+  }
+  
+  /* Centered title section */
+  .home-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 40px 20px 20px;
+    flex-shrink: 0;
+  }
+  
+  .home-content h1 {
+    font-size: 48px;
+    color: #222;
+    margin: 0;
+  }
+  
+  .home-content h3 {
+    font-size: 24px;
+    color: #555;
+    margin-top: 10px;
+  }
+  
+  /* Centered image section */
+  .home-image {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex: 1; /* fills remaining space */
+    margin: 20px 0 40px;
+  }
+  
+  .home-image img {
+    max-width: 90%;
+    height: auto;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+  }
+  
+  /* Button section */
+  .home-buttons {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin-bottom: 60px;
+  }
+  
+  .home-buttons button {
+    padding: 14px 24px;
+    font-size: 16px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    color: white;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+  }
+  
+  .home-buttons button:first-child {
+    background-color: #444;
+  }
+  
+  .home-buttons button:first-child:hover {
+    background-color: #222;
+    transform: scale(1.03);
+  }
+  
+  .home-buttons button:last-child {
+    background-color: #888;
+  }
+  
+  .home-buttons button:last-child:hover {
+    background-color: #555;
+    transform: scale(1.03);
+  }
+  
