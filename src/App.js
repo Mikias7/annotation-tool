@@ -2,7 +2,6 @@
 import './App.css';
 import { BrowserRouter as Router, Routes, Route, Link } from "react-router-dom";
 import Canvas from './pages/canvas.js';
-import Test from './pages/test.js';
 import Upload from './pages/upload.js';
 import Home from './pages/home.js';
 import HelpPage from './pages/help.js';
